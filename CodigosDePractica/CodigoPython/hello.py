@@ -1,0 +1,22 @@
+#VARIABLES RULES
+x = 1                 =int
+y = 2.5
+name = "Andres"
+is_cool = True 
+print("hola mundo")
+
+#matematicas basicas
+a = x + y
+x, y, name, is cool = (1,2.5, "Andres", True)
+
+#checar el tipo de x
+print(type(x))
+
+#cast, e.g. x to string
+
+x = str(x) #passing x
+y = int(y) #passing y
+z = float(y)
+
+print(type(y),y)
+print(type(z),z)
